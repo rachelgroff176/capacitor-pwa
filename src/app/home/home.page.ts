@@ -34,7 +34,7 @@ export class HomePage {
 
   async share() {
     await Share.share({
-      title: 'Come and find me',
+      title: 'Come and find me!',
       text: `Here's my current location: 
         ${this.position.coords.latitude}, 
         ${this.position.coords.longitude}`,
